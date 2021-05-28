@@ -1,6 +1,5 @@
-# Stock-Screener
-Screen for stocks forming candlestick patterns using python and TA-Lib. 
+# Breakout-Finder
 
-Use /snapshot to downlaod latest data every day.
+an extention of stock screner. Use snapshot to download latest data
 
-![image](https://user-images.githubusercontent.com/67240347/118511593-0ebbbe00-b700-11eb-82a7-c5333fbaf10e.png)
+Run Python3 chartlib.py to get stocks in the S&P 500 that are breaking out. 
