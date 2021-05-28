@@ -47,7 +47,7 @@ def snapshot():
         for company in companies:
             symbol = company.split(',')[0]
             print(symbol)
-            df = yf.download(symbol, start = "2021-01-01", end = "2021-05-16")
+            df = yf.download(symbol, start = "2021-01-01", end = "2021-05-27")
             df.to_csv('datasets/daily/{}.csv'.format(symbol))
 
     return { 
